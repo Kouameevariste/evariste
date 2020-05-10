@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="0">
+
+        <record id="group_days_filter" model="res.groups">
+            <field name="name">Filter Days</field>
+            <field name="category_id" ref="base.module_category_hidden"/>
+        </record>
+
+        <record id="group_week_filter" model="res.groups">
+            <field name="name">Filter Week</field>
+            <field name="category_id" ref="base.module_category_hidden"/>
+        </record>
+
+        <record id="group_month_filter" model="res.groups">
+            <field name="name">Filter Month</field>
+            <field name="category_id" ref="base.module_category_hidden"/>
+        </record>
+
+        <record id="group_year_filter" model="res.groups">
+            <field name="name">Filter Year</field>
+            <field name="category_id" ref="base.module_category_hidden"/>
+        </record>
+
+    </data>
+</openerp>
